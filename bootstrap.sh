@@ -58,15 +58,6 @@ git clone https://github.com/hieunt84/play-odoo.git
 # change working directory
 cd ./play-odoo
 
-# Make folder store data for portainer
-mkdir -p ./data/portainer
-
-# Make folder store data for mariadb
-mkdir -p ./data/postgres
-
-# Make folder store data for Odoo
-mkdir -p ./data/odoo
-
 # deploy Odoo
 docker-compose up -d
 
